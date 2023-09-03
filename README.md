@@ -14,3 +14,8 @@ To carry out this computation, I am using Bayes formula: $P(A|B)=\frac{P(A\bigca
 $P(A\bigcap{B})$ represents the probability that the next day will be positive,
 and B denotes all the possibilities we have in the current state, given our knowledge of the previous sequence.
 To gather information about these events, I used historical stock data and calculated the probability for each case.
+
+### Information source 
+yahoo finance
+### Disclaimer
+This is a starter project which may or may not offer advantages. Use it at your own risk. Any usage is the user's responsibility.
