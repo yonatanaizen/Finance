@@ -12,7 +12,7 @@ In this file, I will calculate the coefficient $\beta$ for various stocks. We wi
 $\hat{\beta}$ is the parameter that minimizes $argmin(y-\hat{y}) = argmin(y-\beta \cdot x) = argmin(||y-XB||^2)$. Therefore, the estimated value of $\beta$ can be calculated as $\hat{\beta} = (X^TX)^{-1}X^TY$.
 ### Bayes 
 In this file, I will compute the probability that the next day will be positive.
-To carry out this computation, I am using Bayes'formula: $P(A|B)=\frac{P(A\bigcap{B})}{P(B)}$.
+To carry out this computation, I am using Bayes formula: $P(A|B)=\frac{P(A\bigcap{B})}{P(B)}$.
 $P(A\bigcap{B})$ represents the probability that the next day will be positive,
 and B denotes all the possibilities we have in the current state, given our knowledge of the previous sequence.
 To gather information about these events, I used historical stock data and calculated the probability for each case.
