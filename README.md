@@ -4,7 +4,8 @@ It is a collection of Jupyter notebooks that contain Python code on stocks to he
 In this file, I created a matrix that contains the current price of a stock and also determines its change
 ### Stock Distribution and Prediction
 In this file, I create and simulate a normally distributed random variable. In the second part, I create a multivariate normal variable and simulate it. Lastly, I perform a bootstrap simulation. At the end of the file, I develop a Dash app that provides the user with the option to select a stock and 'N' days. The app displays a graph of the closing price accompanied by two prediction graphs: one derived using the bootstrap method and the other based on the normal distribution method. Additionally, the app presents a summary table with the mean of the stock, standard deviation (SD), and sequence.
-![dash](https://github.com/yonatanaizen/Finance/assets/114994667/35abe5ca-c902-4cce-af7a-414ec3ae0a99)
+![Uploading new_fileupdate.png…]()
+
 
 ### Regression 
 In this file, I will calculate the coefficient $\beta$ for various stocks. We will define $y$ as the stock and $X$ as the reference index. The coefficient $\beta$ represents the expected percent change in the stock (y) for each unit (percent) change in the reference index (X).
